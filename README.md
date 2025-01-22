@@ -1,0 +1,1 @@
+This repository is a full implementation of LSNet:: A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
