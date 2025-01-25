@@ -8,14 +8,14 @@ A Lightweight Segmentation Framework for Real-Time Wildfire Detection
 This is Pytorch implementation for LSNet on fire-smoke dataset, which is mainly achieved by Cheng Zhang and Zhuoyue Ding. Some parts also benefit from Lei Huang.
 # Abstract
 Wildfires pose significant threats to both human safety and the environment, necessitating prompt detection and localization. Deep learning algorithms, particularly those for image segmentation, offer promising solutions but often suffer from computational delays that hinder real-time applications. In this paper, we introduce LSNet, a lightweight segmentation network designed for real-time wildfire detection. LSNet comprises an encoder with a parallel feature multiplier and a residual feature extractor to reduce computational load and enhance segmentation speed, and a decoder with an attentional feature-pyramid structure to improve accuracy. Experimental results demonstrate that LSNet achieves a speed of 31 FPS, an AP50 of 65.1%, and a model size of 274 MB during training, outperforming SOLOv2. Testing results further confirm its efficacy with 30 FPS and an AP50 of 72.3%, meeting the requirements for real-time wildfire detection. Thus, LSNet presents a viable solution for timely wildfire identification and localization.
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/1.png)\
+![img](https://github.com/dingzhuoyue/LSNet/tree/master/img/1.png)\
 Fig. 1. Schematic diagram of the LSNet for the real-time detection of wildfires.
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/3.png)
+![img](https://github.com/dingzhuoyue/LSNet/tree/master/img/3.png)
 Fig. 2. Results of four wildfire images containing (a) large, (b) medium, (c) small, and (d) dense targets.
 # Network
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/4.png)
+![img](https://github.com/dingzhuoyue/LSNet/tree/master/img/4.png)
 Fig. 3. Schematic diagrams of: (a) encoder; (b) FEB; (c) decoder with AFPS; (d) CBAM.
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/2.png)
+![img](https://github.com/dingzhuoyue/LSNet/tree/master/img/2.png)
 Fig. 4. Structure of the LSNet.
 # Install(Same with Mask R-CNN)
 The Environment：
@@ -85,7 +85,7 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 | SOLQ | 12 | 60.5 | 476 |
 | LSNet | 31 | 65.1 | 274 |
 
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/5.png)
+![img](https://github.com/dingzhuoyue/LSNet/tree/master/img/5.png)
 Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
 # Implementation
 ## Training
